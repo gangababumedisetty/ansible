@@ -1,0 +1,7 @@
+- name: Hello World
+  hosts: web 
+  tasks:
+    - name: Print hello World
+      ansibl.builtin.debug:
+         msg: " Hello World "
+      

@@ -2,7 +2,7 @@
 # how to give varibles through prompt
   hosts: local
   connection: local
-  vars-prompt:
+  vars_prompt:
    - name: username
      prompt: Please enter username
      private: false

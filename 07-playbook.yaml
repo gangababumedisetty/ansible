@@ -4,12 +4,12 @@
   connection: local
   vars_prompt:
    - name: username
-     prompt: Please enter username
+     prompt: Please enter your username
      private: false
 
    - name: password
-     prompt: Please enter password
-     pricate: true
+     prompt: Please enter your password
+     private: true
 
   tasks:
     - name : print info

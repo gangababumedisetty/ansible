@@ -1,4 +1,4 @@
-- name: task  level varible
+- name: file varible
   hosts: local
   connection: local
   vars_files:

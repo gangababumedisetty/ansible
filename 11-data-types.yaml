@@ -16,8 +16,8 @@
   - name: Print vailbles
     ansible.builtin.debug:
       msg: |
-        Program: {{ PROGRAM }} \n
-        Duration: {{ DURATION }} \n
-        Is Live: {{ IS_LIVE }} \n
-        Details: {{ DETAILES }} \n
+        Program: {{ PROGRAM }}
+        Duration: {{ DURATION }}
+        Is Live: {{ IS_LIVE }}
+        Details: {{ DETAILES }}
         Topics: {{ TOPICS }}
